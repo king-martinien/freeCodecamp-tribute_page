@@ -114,8 +114,9 @@ img {
     display: none;
 }
 
-.header-title-mobile #title {
+.header-title-mobile h1 {
     font-size: 32px;
+    margin-bottom: 12px;
 }
 
 
