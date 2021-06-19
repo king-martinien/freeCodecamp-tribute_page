@@ -34,6 +34,11 @@ img {
     /* border: 2px solid red; */
 }
 
+.main-header-wrapper {
+    /* border: 2px solid green; */
+    padding-bottom: 2px;
+    overflow-x: hidden;
+}
 .main-header {
     background-color: var(--black-color);
     color: var(--white-color);
@@ -43,7 +48,9 @@ img {
     position: relative;
     width: 75%;
     margin: auto;
-    /* border: 2px solid blue; */
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+    /* border-bottom: 2px solid var(--white-color); */
 }
 
 .main-header::after {
@@ -58,6 +65,8 @@ img {
     -webkit-mask: url('/icons/tear-horizontal.svg');
     -mask: url('/icons/tear-horizontal.svg');
     z-index: 10;
+    /* border: 2px solid red; */
+
 }
 
 
@@ -181,6 +190,7 @@ img {
 .citation {
     padding: 8px;
     font-weight: 600;
+    line-height: 24px;
 }
 
 .citation figcaption {
@@ -194,12 +204,15 @@ img {
     margin: 0 auto;
     padding: 28px;
     text-align: center;
+    line-height: 24px;
+
 }
 
 /* =========== Footer ================ */
 .footer-container {
     font-size: 15px;
     text-align: center;
+    line-height: 22px;
     
 }
 
@@ -252,5 +265,6 @@ img {
     
     .container, .main-header {
         width: 85%;
+
     }
 }
