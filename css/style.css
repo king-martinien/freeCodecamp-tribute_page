@@ -16,6 +16,10 @@ a {
     color: var(--links-color);
 }
 
+a:focus {
+    outline: 2px solid var(--links-color);
+}
+
 body {
     background-color: var(--white-color);
     color: var(--text-color);
