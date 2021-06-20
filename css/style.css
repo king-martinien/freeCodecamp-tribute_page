@@ -21,7 +21,7 @@ a:focus {
 }
 
 body {
-    background-color: var(--white-color);
+    background-color: #E5E5E5;
     color: var(--text-color);
 }
 
@@ -32,10 +32,19 @@ img {
 }
 
 
+#main {
+    /* border: 2px solid red; */
+}
+
+#main .container {
+    /* border: 2px solid red; */
+    background-color: var(--white-color);
+}
+
 .container {
     width: 75%;
-    margin: 64px auto;
-    /* border: 2px solid red; */
+    margin: 0 auto 64px;
+    padding: 64px 0 32px;
 }
 
 .main-header-wrapper {
@@ -125,6 +134,7 @@ img {
     text-align: center;
     margin-top: 12px;
     display: none;
+    margin-bottom: 32px;
 }
 
 .header-title-mobile h1 {
@@ -196,6 +206,8 @@ img {
     padding: 8px;
     font-weight: 600;
     line-height: 24px;
+    width: 565px;
+    margin: 0 auto;
 }
 
 .citation figcaption {
@@ -210,14 +222,17 @@ img {
     padding: 28px;
     text-align: center;
     line-height: 24px;
+    /* border: 2px solid blue; */
 
 }
 
 /* =========== Footer ================ */
+
 .footer-container {
     font-size: 15px;
     text-align: center;
     line-height: 22px;
+    background-color: transparent;
     
 }
 
@@ -230,13 +245,16 @@ img {
 
 @media screen and (max-width: 630px) {
     
-    .history, .grid-item {
+    .history, .grid-item, .citation {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     
+    body {
+        background-color: var(--white-color);
+    }
     .container{
         width: 95%;
     }
